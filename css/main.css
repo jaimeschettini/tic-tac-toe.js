@@ -1,0 +1,59 @@
+body {
+	font-family: Arial;
+}
+
+.board {
+	-webkit-justify-content: center;
+	position: relative;
+	margin: auto;
+	width: 602px;
+	height: 602px;
+	cursor: pointer;
+}
+
+.board div {
+	width: 200px;
+	height: 200px;
+	float: left;
+	text-align: center;
+	vertical-align: middle;
+	margin: auto;
+	font-size: 200px;	
+}
+
+.board p {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+.board #cell-4 ,
+.board #cell-7 {
+	clear: both;
+}
+
+.board #cell-1,
+.board #cell-2, 
+.board #cell-4,
+.board #cell-5,
+.board #cell-7,
+.board #cell-8 {
+	border-right: 1px solid black;
+}
+
+.board #cell-1,
+.board #cell-2, 
+.board #cell-3,
+.board #cell-4,
+.board #cell-5,
+.board #cell-6 {
+	border-bottom: 1px solid black;
+}
+
+.X {
+	background-color: #3399FF;
+}
+
+.O {
+	background-color: #FFCC00;
+}
